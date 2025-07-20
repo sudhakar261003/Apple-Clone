@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <link rel="icon" href="Apple_images/apple_icon_2.png">
+    <link rel="stylesheet" href="Apple.css">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+
+        <a href="#"><img src="Apple_images/apple_icon_2.png" alt="Apple_Icon"></a>
+
+        <nav class="navbar">
+
+            <input type="checkbox" id="navbar-icon">
+
+            <label for="navbar-icon" class="open">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+
+
+            </label>
+
+            <div class="link-container">
+
+                <label for="navbar-icon" class="close">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6 close">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                    </svg>
+                </label>
+
+                <ul>
+                    <li><a href="#">Store</a></li>
+                    <li><a href="#laptop">Mac</a></li>
+                    <li><a href="#ipad">iPad</a></li>
+                    <li><a href="#phone">iPhone</a></li>
+                    <li><a href="#watch">Watch</a></li>
+                    <li><a href="#">Vision</a></li>
+                    <li><a href="#airpods">Airpods</a></li>
+                    <li><a href="#imac">TV & Home</a></li>
+                    <li><a href="#">Entertainment</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+
+            <div class="icons">
+                <label for="search">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+                </label>
+
+                <label for="bag">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                    </svg>
+                </label>
+
+                <input type="checkbox" id="search">
+
+                <div class="search-active">
+                    <label for="search" class="close-search">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6 close">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+                        <div class="search-container">
+
+                            <input type="text" id="search-box" placeholder="Search">
+
+                            <div class="recomand-link">
+                                <h3>Quick links</h3>
+                                <ul>
+                                    <li>&#10141; Find a Store</li>
+                                    <li>&#10141; Apple Version Pro</li>
+                                    <li>&#10141; AirPods</li>
+                                    <li>&#10141; Apple Inelligence</li>
+                                    <li>&#10141; Apple Trade In</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+                </div>
+
+
+                <input type="checkbox" id="bag">
+
+                <div class="shopping-bag">
+                    <label for="bag" class="close-bag">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6 close">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+                    </label>
+
+                    <h1>Your Bag is Empty
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                        </svg>
+                    </h1>
+                </div>
+
+            </div>
+
+        </nav>
+
+
+    </header>
+
+    <!-- Main -->
+
+    <main>
+        <section class="hero">
+
+            <div class="text">
+                <h1>Apple Intellgence</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id ab assumenda totam odit iure soluta
+                    aperiam voluptatem. Sed, fugiat possimus.</p>
+            </div>
+
+            <div class="hero-image">
+                <img src="Apple_images/Apple_Image.jpg" alt="Apple_colorful-image">
+            </div>
+
+        </section>
+
+        <!-- Laptop Section -->
+
+        <section class="laptop" id="laptop">
+            <div class="lap-text">
+                <div class="item">
+                    <h1>
+                        MacBook Air
+                    </h1>
+                    <h3>
+                        sky blue color. <br>
+                        high performance with m4.
+                    </h3>
+                </div>
+                <div class="btn">
+                    <button class="primary">Lear more</button>
+                    <button class="secondary">Buy</button>
+                </div>
+
+            </div>
+            <div class="lap-image">
+                <img src="Apple_images/macbook_4.png" alt="Apple Macbook">
+            </div>
+            <div class="AI">
+                <p class="Ai">Built for Apple Inteligence</p>
+            </div>
+        </section>
+
+        <!-- Phone Section -->
+
+        <section class="phone" id="phone">
+
+            <div class="phone-text">
+                <div class="item">
+                    <h1>
+                        iPhone
+                    </h1>
+                    <h3>
+                        Meet the iPhone 16 family
+                    </h3>
+                </div>
+                <div class="btn">
+                    <button class="primary">Lear more</button>
+                    <button class="secondary">Shop iPhone</button>
+
+                    <p class="Ai">Built for Apple Inteligence</p>
+                </div>
+
+            </div>
+            <div class="phone-image">
+                <img src="Apple_images/Apple.PNG" alt="iPhone-Image">
+            </div>
+
+        </section>
+
+        <!-- products ssection -->
+        <section class="product-section">
+            <div class="product-text">
+                <h1>products</h1>
+            </div>
+
+            <div class="products">
+                <div class="Macbook">
+                    <div class="btn button">
+                        <h1>Macbook Air</h1>
+                        <button class="primary">Lear more</button>
+                        <button class="secondary">Buy</button>
+                    </div>
+                    <div class="mac-image">
+                        <img src="Apple_images/Macbook Air m3 256gb Armazenamento 8gb ram 13 Polegadas Novo na Caixa Lacrado.jpg"
+                            alt="Macbook">
+                    </div>
+                </div>
+                <div class="Iphone">
+                    <div class="btn button">
+                        <h1>iPhone</h1>
+                        <button class="primary">Lear more</button>
+                        <button class="secondary">Buy</button>
+                    </div>
+                    <div class="iphone-image">
+                        <img src="Apple_images/Iphone_violet.png" alt="Iphone">
+                    </div>
+                </div>
+                <div class="Ipad" id="ipad">
+                    <div class="btn button">
+                        <h1>Ipad</h1>
+                        <button class="primary">Lear more</button>
+                        <button class="secondary">Buy</button>
+                    </div>
+                    <div class="ipad-image">
+                        <img src="Apple_images/Ipad_blue.jpg" alt="Ipad">
+                    </div>
+                </div>
+                <div class="Airpods" id="airpods">
+                    <div class="btn button">
+                        <h1>AirPods</h1>
+                        <button class="primary">Lear more</button>
+                        <button class="secondary">Buy</button>
+                    </div>
+                    <div class="airpods-image">
+                        <img src="Apple_images/Apple_Airpods.jpg" alt="Macbook">
+                    </div>
+                </div>
+
+                <div class="iMac" id="imac">
+                    <div class="btn button">
+                        <h1>iMac</h1>
+                        <button class="primary">Lear more</button>
+                        <button class="secondary">Buy</button>
+                    </div>
+                    <div class="imac-image">
+                        <img src="Apple_images/Apple-iMac.jpg" alt="iMac">
+                    </div>
+                </div>
+
+                <div class="Watch" id="watch">
+                    <div class="btn button">
+                        <h1>Watch</h1>
+                        <button class="primary">Lear more</button>
+                        <button class="secondary">Buy</button>
+                    </div>
+                    <div class="watch-image">
+                        <img src="Apple_images/Apple_watch-1.jpg" alt="Watch">
+                    </div>
+                </div>
+
+                <div class="Mini">
+                    <div class="btn button">
+                        <h1>Mac Mini</h1>
+                        <button class="primary">Lear more</button>
+                        <button class="secondary">Buy</button>
+                    </div>
+                    <div class="mini-image">
+                        <img src="Apple_images/macmini-4.jpg" alt="Watch">
+                    </div>
+                </div>
+
+                <div class="Speaker">
+                    <div class="btn button">
+                        <h1>Homepod</h1>
+                        <button class="primary">Lear more</button>
+                        <button class="secondary">Buy</button>
+                    </div>
+                    <div class="speaker-image">
+                        <img src="Apple_images/speaker-2.png" alt="Watch">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-section">
+            <div class="shop">
+                <h5>shop and learn</h5>
+                <ul>
+                    <li>Store</li>
+                    <li>Mac</li>
+                    <li>iPad</li>
+                    <li>iPhone</li>
+                    <li>Watch</li>
+                </ul>
+            </div>
+            <div class="entertainment">
+                <h5>entertainment</h5>
+                <ul>
+                    <li>apple one</li>
+                    <li>apple tv+</li>
+                    <li>apple music</li>
+                    <li>apple podcasts</li>
+                    <li>apple books</li>
+                </ul>
+            </div>
+            <div class="store">
+                <h5>apple store</h5>
+                <ul>
+                    <li>find a store </li>
+                    <li>genius bar</li>
+                    <li>today at apple</li>
+                    <li>apple summer camp</li>
+                    <li>order status</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>copyright &copy; 2025 apple inc. all rights reserved.</p>
+
+            <p>privacy policy | terms of use | sales policy | legal | site map</p>
+        </div>
+    </footer>
+</body>
+
+</html>
